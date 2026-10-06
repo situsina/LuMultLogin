@@ -5,7 +5,7 @@ on:
   schedule:
     # ⚠️ cron 只认 UTC：北京时间 = UTC + 8
     # 当前：每月 5/15/25 日 UTC 06:04 = 北京时间 14:04，间隔均匀约 10 天
-    - cron: '4 6 5,15,25 * *'
+    - cron: '23 9 3,13,23 * *'
 
 jobs:
   Renew-lunes:
